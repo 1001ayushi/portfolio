@@ -1216,7 +1216,8 @@ img {
   }
 
   .about__img {
-    width: 150px;
+    width: 250px;
+    height: 350px;
   }
 
   .about__description {
