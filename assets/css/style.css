@@ -205,6 +205,167 @@ img {
 .nav__toggle:hover {
   color: var(--first-color);
 }
+/* Enhanced Professional Styling */
+.home__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button--white {
+  background-color: var(--container-color);
+  color: var(--title-color);
+  border: 2px solid var(--first-color);
+}
+
+.button--white:hover {
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+/* Portfolio Section */
+.portfolio__content {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  background-color: var(--container-color);
+}
+
+.portfolio__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.portfolio__tech {
+  padding: 0.25rem 0.75rem;
+  background-color: var(--first-color-alt);
+  color: #fff;
+  border-radius: 1rem;
+  font-size: var(--small-font-size);
+}
+
+.portfolio__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.portfolio__achievements {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.portfolio__achievements-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.portfolio__achievement {
+  padding: 1.5rem;
+  background-color: var(--container-color);
+  border-radius: 1rem;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+
+.achievement__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+/* Enhanced Skills Styling */
+.skills__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.skills__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+/* Enhanced Contact Form */
+.contact__inputs {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.contact__input::placeholder {
+  color: var(--text-color-light);
+}
+
+/* Qualification columns */
+.qualification__column {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.qualification__section-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--title-color);
+}
+
+.qualification__section-title .qualification__icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+/* Enhanced project section */
+.project__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .qualification__container.grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .qualification__column {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .home__buttons,
+  .project__buttons,
+  .portfolio__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact__inputs {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Professional color scheme enhancements */
+:root {
+  --first-color: #2563eb;
+  --first-color-alt: #1d4ed8;
+  --title-color: #1e293b;
+  --text-color: #475569;
+  --text-color-light: #64748b;
+  --container-color: #ffffff;
+}
+
 
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -440,7 +601,13 @@ img {
 
 .about__buttons {
   display: flex;
-  justify-content: center;
+  gap: 1rem; /* Adds consistent spacing between buttons */
+  align-items: center;
+}
+
+/* Alternative approach using margin */
+.about__buttons a:first-child {
+  margin-right: 1rem;
 }
 
 /* ========== Skills ========== */
@@ -1226,10 +1393,6 @@ img {
 
   .about__info {
     justify-content: space-between;
-  }
-
-  .about__buttons {
-    justify-content: initial;
   }
 
   .qualification__tabs {
