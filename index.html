@@ -18,7 +18,9 @@
       type="text/css"
       href="assets/css/swiper-bundle.min.css"
     />
-    <title>Ayushi Gupta</title>
+    <!--==================== Google Fonts ====================-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Ayushi Gupta - Full Stack Developer & Solutions Architect</title>
   </head>
   <body>
     <!--==================== Header ====================-->
@@ -43,13 +45,18 @@
               </a>
             </li>
             <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
               <a href="#services" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i> Services
               </a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i> Contact me
+                <i class="uil uil-message nav__icon"></i> Contact
               </a>
             </li>
           </ul>
@@ -95,6 +102,14 @@
               >
                 <i class="uil uil-github-alt"></i>
               </a>
+
+              <a
+                href="#"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-code-branch"></i>
+              </a>
             </div>
             <div class="home__img">
               <svg
@@ -106,17 +121,17 @@
                 <mask id="mask0" mask-type="alpha">
                   <path
                     d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-									130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-									97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-									0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
                 </mask>
                 <g mask="url(#mask0)">
                   <path
                     d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-									165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-									129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-									-0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
                   <image
                     class="home__blob-img"
@@ -128,23 +143,23 @@
               </svg>
             </div>
             <div class="home__data">
-              <h1 class="home__title">Hi, I'm Ayushi</h1>
-              <h3 class="home__subtitle">Undergrad Student</h3>
+              <h1 class="home__title">Hi, I'm Ayushi Gupta</h1>
+              <h3 class="home__subtitle"> Full Stack Developer & Solutions Architect</h3>
               <p class="home__description">
-                Software engineering undergrad skilled in data structures,
-                algorithms, coding, web, and Android development, eager to
-                contribute to tech teams.
-                </p> 
-			<p class="home__description"></p>I don’t just look for ways to fit in—I
-                look for ways to make an impact. If you’re ready for someone who
-                can bring fresh solutions and energy to the table, I’m your
-                person.Let’s make things happen!
+                <strong>Enterprise-grade software engineer</strong> with 1+ years of hands-on experience architecting and deploying scalable applications using cutting-edge technologies. Expert in .NET Core, NestJS, Angular, React, and cloud-native solutions with Microsoft Azure certification.
               </p>
-<br>
+              <p class="home__description">
+                I transform complex business requirements into robust, high-performance systems that scale to serve thousands of users. Ready to drive innovation and deliver exceptional results for your next project.
+              </p>
 
-              <a href="#contact" class="button button--flex">
-                Contact Me <i class="uil uil-message button__icon"></i>
-              </a>
+              <div class="home__buttons">
+                <a href="#projects" class="button button--flex">
+                  View My Work <i class="uil uil-scenery button__icon"></i>
+                </a>
+                <a href="#contact" class="button button--flex button--white">
+                  Let's Connect <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -158,11 +173,10 @@
         </div>
       </section>
 
-      <!-- ========== About Us ========== -->
+      <!-- ========== About ========== -->
       <section class="about section" id="about">
-		
         <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My Introduction</span>
+        <span class="section__subtitle">Professional Overview</span>
 
         <div class="about__container container grid">
           <img
@@ -173,33 +187,42 @@
 
           <div class="about__data">
             <p class="about__description">
-              Skilled software engineering student with a history of solo and
-              collaborative projects showcasing coding expertise. Strong CGPA
-              demonstrates proficiency in core programming concepts, while
-              consistent practice has yielded 200+ problem solutions.
+              <strong> Full Stack Developer</strong> and <strong>Microsoft Azure AI Engineer Associate</strong> with expertise in enterprise-level application development. Currently serving as Associate SDE at SkillIQ, where I architect scalable backend systems and lead full-stack development initiatives.
             </p>
+            <p class="about__description">
+              My technical journey spans from modernizing legacy enterprise systems at TVS Motor Company to building AI-integrated learning platforms. I specialize in creating robust, performance-optimized solutions that drive business growth and enhance user experiences.
+            </p>
+
             <div class="about__info">
               <div>
-                <span class="about__info-title">9.5+</span>
+                <span class="about__info-title">9.5</span>
                 <span class="about__info-name"
-                  >Current <br />
-                  CGPA</span
+                  >Academic <br />
+                  Excellence</span
                 >
               </div>
 
               <div>
-                <span class="about__info-title">10+</span>
+                <span class="about__info-title">25+</span>
                 <span class="about__info-name"
-                  >Completed <br />
-                  projects</span
+                  >Projects <br />
+                  Delivered</span
                 >
               </div>
 
               <div>
-                <span class="about__info-title">400+</span>
+                <span class="about__info-title">1+</span>
                 <span class="about__info-name"
-                  >Questions <br />
-                  solved</span
+                  >Years <br />
+                  Experience</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">5+</span>
+                <span class="about__info-name"
+                  >Tech Stack <br />
+                  Mastery</span
                 >
               </div>
             </div>
@@ -212,6 +235,9 @@
               >
                 Download CV<i class="uil uil-download-alt button__icon"></i>
               </a>
+              <a href="#projects" class="button button--flex button--small">
+                View Portfolio<i class="uil uil-arrow-right button__icon"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -219,19 +245,19 @@
 
       <!-- ========== Skills ========== -->
       <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical level</span>
+        <h2 class="section__title">Technical Expertise</h2>
+        <span class="section__subtitle">Advanced skill proficiency across modern tech stacks</span>
 
         <div class="skills__container container grid">
           <div>
-            <!-- ===== Skills 1 ===== -->
+            <!-- ===== Backend Development ===== -->
             <div class="skills__content skills__open">
               <div class="skills__header">
-                <i class="uil uil-brackets-curly skills__icon"></i>
+                <i class="uil uil-server-network skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Full-Stack Development</h1>
-                  <span class="skills__subtitle">More than 1 years</span>
+                  <h1 class="skills__title">Backend & API Development</h1>
+                  <span class="skills__subtitle">Enterprise-grade server architecture</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -239,127 +265,106 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">HTML</h3>
+                    <h3 class="skills__name">C#/.NET Core</h3>
+                    <span class="skills__number">95%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__dotnet"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">NestJS/Node.js</h3>
                     <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__html"></span>
+                    <span class="skills__percentage skills__nestjs"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">CSS</h3>
-                    <span class="skills__number">75%</span>
+                    <h3 class="skills__name">RESTful APIs</h3>
+                    <span class="skills__number">95%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__css"></span>
+                    <span class="skills__percentage skills__api"></span>
                   </div>
                 </div>
-				
-                <div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">Angular</h3>
-					  <span class="skills__number">90%</span>
-					</div>
-					<div class="skills__bar">
-					  <span class="skills__percentage skills__bootstrap"></span>
-					</div>
-				  </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">JavaScript</h3>
+                    <h3 class="skills__name">Microservices Architecture</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__microservices"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">WebSocket/Real-time Systems</h3>
                     <span class="skills__number">80%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__js"></span>
+                    <span class="skills__percentage skills__websocket"></span>
                   </div>
                 </div>
-				
-                <div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">TypeScript</h3>
-					  <span class="skills__number">90%</span>
-					</div>
-					<div class="skills__bar">
-					  <span class="skills__percentage skills__bootstrap"></span>
-					</div>
-				  </div>
+              </div>
+            </div>
 
+            <!-- ===== Frontend Development ===== -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Frontend & UI Development</h1>
+                  <span class="skills__subtitle">Modern responsive interfaces</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Bootstrap</h3>
+                    <h3 class="skills__name">Angular 17+</h3>
                     <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__bootstrap"></span>
+                    <span class="skills__percentage skills__angular"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">ReactJs</h3>
+                    <h3 class="skills__name">React.js</h3>
                     <span class="skills__number">85%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__react"></span>
                   </div>
                 </div>
-				<div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">ASP.NET Core/MVC </h3>
-					  <span class="skills__number">85%</span>
-					</div>
-					<div class="skills__bar">
-					  <span class="skills__percentage skills__react"></span>
-					</div>
-				  </div>
 
-				  <div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">Web API </h3>
-					  <span class="skills__number">80%</span>
-					</div>
-					<div class="skills__bar">
-					  <span class="skills__percentage skills__react"></span>
-					</div>
-				  </div>
-				  <div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">API Integration </h3>
-					  <span class="skills__number">90%</span>
-					</div>
-					<div class="skills__bar">
-					  <span class="skills__percentage skills__react"></span>
-					</div>
-				  </div>
-  
-
-				
-              </div>
-            </div>
-
-            <!-- ===== Skills 2 ===== -->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-server skills__icon"></i>
-
-                <div>
-                  <h1 class="skills__title">Cloud Computing</h1>
-                  <span class="skills__subtitle">More than 1 years</span>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-              <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Microsoft Azure</h3>
-                    <span class="skills__number">80%</span>
+                    <h3 class="skills__name">TypeScript</h3>
+                    <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__node"></span>
+                    <span class="skills__percentage skills__typescript"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Modern CSS/SCSS</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__css"></span>
                   </div>
                 </div>
               </div>
@@ -367,14 +372,14 @@
           </div>
 
           <div>
-            <!-- ===== Skills 3 ===== -->
+            <!-- ===== Database & Cloud ===== -->
             <div class="skills__content skills__close">
               <div class="skills__header">
-                <i class="uil uil-server-network skills__icon"></i>
+                <i class="uil uil-database skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Mobile App Development</h1>
-                  <span class="skills__subtitle">Learning (Beginner)</span>
+                  <h1 class="skills__title">Database & Cloud Architecture</h1>
+                  <span class="skills__subtitle">Scalable data solutions</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -382,114 +387,54 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Java</h3>
-                    <span class="skills__number">80%</span>
+                    <h3 class="skills__name">PostgreSQL</h3>
+                    <span class="skills__number">90%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__java"></span>
+                    <span class="skills__percentage skills__postgres"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">Kotlin</h3>
-                    <span class="skills__number">70%</span>
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__number">85%</span>
                   </div>
                   <div class="skills__bar">
-                    <span class="skills__percentage skills__node"></span>
+                    <span class="skills__percentage skills__mongo"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Microsoft Azure</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__azure"></span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Docker & Containerization</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__docker"></span>
                   </div>
                 </div>
               </div>
             </div>
- <!-- ===== Skills 4 ===== -->
 
- <div class="skills__content skills__close">
-	<div class="skills__header">
-	  <i class="uil uil-server skills__icon"></i>
-
-	  <div>
-		<h1 class="skills__title">Machine Learning</h1>
-		<span class="skills__subtitle">More than 2 years</span>
-	  </div>
-
-	  <i class="uil uil-angle-down skills__arrow"></i>
-	</div>
-	<div class="skills__list grid">
-
-
-	  <div class="skills__data">
-		<div class="skills__titles">
-		  <h3 class="skills__name"> Python</h3>
-		  <span class="skills__number">80%</span>
-		</div>
-		<div class="skills__bar">
-		  <span class="skills__percentage skills__node"></span>
-		</div>
-	  </div>
-	  <div class="skills__data">
-		<div class="skills__titles">
-		  <h3 class="skills__name"> Machine Learning Libraries</h3>
-		  <span class="skills__number">80%</span>
-		</div>
-		<div class="skills__bar">
-		  <span class="skills__percentage skills__node"></span>
-		</div>
-	  </div>
-	  <div class="skills__data">
-		<div class="skills__titles">
-		  <h3 class="skills__name"> Data Processing and Manipulation		</h3>
-		  <span class="skills__number">75%</span>
-		</div>
-		<div class="skills__bar">
-		  <span class="skills__percentage skills__node"></span>
-		</div>
-	  </div>
-	  <div class="skills__data">
-		<div class="skills__titles">
-		  <h3 class="skills__name"> Data Visualization</h3>
-		  <span class="skills__number">90%</span>
-		</div>
-		<div class="skills__bar">
-		  <span class="skills__percentage skills__node"></span>
-		</div>
-	  </div>
-	  <div class="skills__data">
-		<div class="skills__titles">
-		  <h3 class="skills__name">  Deep Learning</h3>
-		  <span class="skills__number">60%</span>
-		</div>
-		<div class="skills__bar">
-		  <span class="skills__percentage skills__node"></span>
-		</div>
-	  </div>
-
-	  <div class="skills__data">
-		<div class="skills__titles">
-		  <h3 class="skills__name">  Cloud Platforms for ML</h3>
-		  <span class="skills__number">90%</span>
-		</div>
-		<div class="skills__bar">
-		  <span class="skills__percentage skills__node"></span>
-		</div>
-	  </div>
-
-	 
-	 
-
-	</div>
-  </div>
-</div>
-
-<div>
-            <!-- ===== Skills 5 ===== -->
-
+            <!-- ===== DevOps & Tools ===== -->
             <div class="skills__content skills__close">
               <div class="skills__header">
-                <i class="uil uil-pen skills__icon"></i>
+                <i class="uil uil-wrench skills__icon"></i>
 
                 <div>
-                  <h1 class="skills__title">Languages</h1>
-                  <span class="skills__subtitle">More than 8 known</span>
+                  <h1 class="skills__title">DevOps & Development Tools</h1>
+                  <span class="skills__subtitle">Modern development workflow</span>
                 </div>
 
                 <i class="uil uil-angle-down skills__arrow"></i>
@@ -497,50 +442,41 @@
               <div class="skills__list grid">
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
+                    <h3 class="skills__name">CI/CD Pipelines</h3>
+                    <span class="skills__number">80%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__cicd"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">C++</h3>
+                    <h3 class="skills__name">Git & Version Control</h3>
+                    <span class="skills__number">95%</span>
                   </div>
-                </div>
-				<div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">C#</h3>
-					</div>
-				  </div>
-				
-
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Java</h3>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__git"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">JavaScript</h3>
+                    <h3 class="skills__name">API Testing (Postman)</h3>
+                    <span class="skills__number">90%</span>
                   </div>
-                </div>
-
-				<div class="skills__data">
-					<div class="skills__titles">
-					  <h3 class="skills__name">TypeScript</h3>
-					</div>
-				  </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__testing"></span>
                   </div>
                 </div>
 
                 <div class="skills__data">
                   <div class="skills__titles">
-                    <h3 class="skills__name">SQL</h3>
+                    <h3 class="skills__name">Agile & Scrum</h3>
+                    <span class="skills__number">85%</span>
+                  </div>
+                  <div class="skills__bar">
+                    <span class="skills__percentage skills__agile"></span>
                   </div>
                 </div>
               </div>
@@ -549,345 +485,529 @@
         </div>
       </section>
 
-      <!-- ========== Qualification ========== -->
+      <!-- ========== Professional Journey ========== -->
       <section class="qualification section">
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
+        <h2 class="section__title">Professional Journey</h2>
+        <span class="section__subtitle">Education & Experience</span>
 
-        <div class="qualification__container container">
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
-            >
+        <div class="qualification__container container grid">
+          <!-- Education Column -->
+          <div class="qualification__column">
+            <h3 class="qualification__section-title">
               <i class="uil uil-graduation-cap qualification__icon"></i>
-              Educational
-            </div>
-          </div>
-
-          <div class="qualification__sections">
-            <!-- ===== Qualification Content 1 ===== -->
-
+              Education & Certifications
+            </h3>
+            
+            <!-- B.Tech -->
             <div class="qualification__data">
               <div>
-                <h3 class="qualification__title">High School</h3>
-                <span class="qualification__subtitle">Nazareth Academy, Gaya</span>
+                <h3 class="qualification__title">B.Tech Computer Science</h3>
+                <span class="qualification__subtitle">KIIT University | CGPA: 9.5</span>
                 <div class="qualification__calendar">
                   <i class="uil uil-calendar-alt"></i>
-                  Jul 2017 - Jun 2019
+                  2021 - 2025
                 </div>
               </div>
-
               <div>
                 <span class="qualification__rounder"></span>
                 <span class="qualification__line"></span>
               </div>
             </div>
 
-            <div
-              class="qualification__content qualification__active"
-              data-content
-              id="education"
-            >
-              <!-- Qualification 2 -->
-              <div class="qualification__data">
-                <div></div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">Higher Secondary</h3>
-                  <span class="qualification__subtitle">School Name</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Jun 2019 - Jun 2021
-                  </div>
-                </div>
+            <!-- Azure Certification -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
               </div>
-
-              <!-- Qualification 3 -->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">B.Tech(CSE)</h3>
-                  <span class="qualification__subtitle">KIIT University</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Jul 2021 - Aug 2025
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!-- Qualification 4 -->
-              <div class="qualification__data">
-                <div></div>
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">Web Developement</h3>
-                  <span class="qualification__subtitle">Online - Udemy</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    Oct 2022 - Dec 2022
-                  </div>
-                </div>
-              </div>
-
-              <!-- Qualification 5 -->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">Android Development</h3>
-                  <span class="qualification__subtitle">Online - Udemy</span>
-                  <div class="qualification__calendar">
-                    <i class="uil uil-calendar-alt"></i>
-                    May 2023 - Sep 2023
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!-- <span class="qualification__line"></span> -->
+              <div>
+                <h3 class="qualification__title">Azure AI Engineer Associate</h3>
+                <span class="qualification__subtitle">Microsoft Certified</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2024
                 </div>
               </div>
             </div>
-  </div>
-  <div class="qualification__tabs">
-    <div
-      class="qualification__button button--flex qualification__active"
-      data-target="#education"
-    >
-      <i class="uil uil-graduation-cap qualification__icon"></i>
-Experience    
-</div>
 
-
-  </div>
-  <div class="qualification__sections">
-
-
-
-
-    <div class="qualification__data">
-      <div></div>
-      <div>
-        <span class="qualification__rounder"></span>
-        <span class="qualification__line"></span>
-      </div>
-      <div>
-        <h3 class="qualification__title">Salesforece Developer Virtual Internship</h3>
-        <span class="qualification__subtitle">Remote</span>
-        <div class="qualification__calendar">
-          <i class="uil uil-calendar-alt"></i>
-          Dec 2023 - Jan 2024
-        </div>
-      </div>
-    </div>
-
-    <!-- Qualification 3 -->
-    <div class="qualification__data">
-      <div>
-        <h3 class="qualification__title">Code Without Barriers-Women in AI(MICROSOFT)</h3>
-        <span class="qualification__subtitle">Remote</span>
-        <div class="qualification__calendar">
-          <i class="uil uil-calendar-alt"></i>
-          Feb 2024 - April 2024
-        </div>
-      </div>
-
-      <div>
-        <span class="qualification__rounder"></span>
-        <span class="qualification__line"></span>
-      </div>
-    </div>
-
-    <!-- Qualification 4 -->
-    <div class="qualification__data">
-      <div></div>
-      <div>
-        <span class="qualification__rounder"></span>
-      </div>
-      <div>
-        <h3 class="qualification__title">TVS Motor Company</h3>
-        <span class="qualification__subtitle">Bengaluru,Karnataka</span>
-        <div class="qualification__calendar">
-          <i class="uil uil-calendar-alt"></i>
-          July 2024 - Jan 2024
-        </div>
-      </div>
-    </div>
-
-
-
-
-
+            <!-- CCNA -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">CCNA Certification</h3>
+                <span class="qualification__subtitle">Cisco Certified</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2024
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
             </div>
 
-            <!-- ===== Qualification Content 2 ===== -->
+            <!-- ServiceNow -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">ServiceNow CAD</h3>
+                <span class="qualification__subtitle">ServiceNow Certified</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2024
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- Experience Column -->
+          <div class="qualification__column">
+            <h3 class="qualification__section-title">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Professional Experience
+            </h3>
+
+            <!-- SkillIQ -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Associate SDE Intern</h3>
+                <span class="qualification__subtitle">SkillIQ, Bengaluru</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  March 2025 - Present
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!-- TVS Motor -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Software Development Intern</h3>
+                <span class="qualification__subtitle">TVS Motor Company, Bengaluru</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  June 2024 - Dec 2024
+                </div>
+              </div>
+            </div>
+
+            <!-- Microsoft Program -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Women in AI Program</h3>
+                <span class="qualification__subtitle">Microsoft (Remote)</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Feb 2024 - April 2024
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!-- Salesforce -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Salesforce Developer</h3>
+                <span class="qualification__subtitle">Virtual Internship</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  Dec 2023 - Jan 2024
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <!-- ========== Portfolio Projects ========== -->
+  <!-- ========== Portfolio Projects ========== -->
+<section class="portfolio section" id="projects">
+  <h2 class="section__title">Portfolio</h2>
+  <span class="section__subtitle">Featured Projects & Achievements</span>
+
+  <div class="portfolio__container container swiper-container">
+    <div class="swiper-wrapper">
+      <!-- Project 1: AI-Integrated LMS -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="AI-Integrated Learning Management System" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">AI-Integrated Learning Management System</h3>
+          <p class="portfolio__description">
+            Built a comprehensive LMS for sales teams with AI-powered features including dynamic quiz generation and automated evaluation. Architected scalable backend using NestJS with PostgreSQL and MongoDB for optimal data handling.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">NestJS</span>
+            <span class="portfolio__tech">PostgreSQL</span>
+            <span class="portfolio__tech">MongoDB</span>
+            <span class="portfolio__tech">OpenAI API</span>
+            <span class="portfolio__tech">Docker</span>
+          </div>
+          <div class="portfolio__buttons">
+            <span class="button button--flex button--small portfolio__button portfolio__button--disabled">
+              <i class="uil uil-lock button__icon"></i> Confidential Project
+            </span>
+            <span class="portfolio__note">*Proprietary company project - details restricted due to NDA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: OCR App using Azure -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="OCR App using Azure and Visual Studio" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">OCR App using Azure & Visual Studio</h3>
+          <p class="portfolio__description">
+            Built an advanced Optical Character Recognition (OCR) application using Microsoft Azure Document Intelligence and Visual Studio Community. Converts scanned images, printed documents into machine-encoded text with high accuracy. Integrated Azure AI Form Recognizer for enterprise-grade text extraction capabilities.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">C#</span>
+            <span class="portfolio__tech">Azure Document Intelligence</span>
+            <span class="portfolio__tech">Visual Studio</span>
+            <span class="portfolio__tech">Windows Forms</span>
+            <span class="portfolio__tech">Azure AI Services</span>
+          </div>
+          <div class="portfolio__buttons">
+            <a href="https://www.youtube.com/watch?v=MaAaJylZr2I&t=2s" target="_blank" class="button button--flex button--small portfolio__button">
+              Demo Video <i class="uil uil-play button__icon"></i>
+            </a>
+            <a href="https://github.com/1001ayushi" target="_blank" class="button button--flex button--small portfolio__button">
+              GitHub <i class="uil uil-github-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Project 3: DMS TVS -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Enterprise Dealership Management System" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Enterprise Dealership Management System</h3>
+          <p class="portfolio__description">
+            Built and deployed 10 high-traffic DMS screens (8 in production) using Angular and .NET Web API 2.0, supporting 5,000+ dealership queries daily. Reduced form submission errors by 70% through robust backend validation.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">Angular</span>
+            <span class="portfolio__tech">.NET Web API 2.0</span>
+            <span class="portfolio__tech">SQL Server</span>
+            <span class="portfolio__tech">Postman</span>
+            <span class="portfolio__tech">Azure</span>
+          </div>
+          <div class="portfolio__buttons">
+            <span class="button button--flex button--small portfolio__button portfolio__button--disabled">
+              <i class="uil uil-building button__icon"></i> Enterprise Project
+            </span>
+            <span class="portfolio__note">*Corporate internship project - data confidentiality maintained</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Flight Price Prediction -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Flight Price Prediction ML System" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Flight Price Prediction ML System</h3>
+          <p class="portfolio__description">
+            Processed and analyzed 300,000+ flight records with advanced feature engineering. Achieved 96.39% predictive accuracy with K-Nearest Neighbors algorithm, outperforming Random Forest and SVM by 5%. Optimized memory usage by 30% during ETL phase.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">Python</span>
+            <span class="portfolio__tech">Scikit-learn</span>
+            <span class="portfolio__tech">Pandas</span>
+            <span class="portfolio__tech">Seaborn</span>
+            <span class="portfolio__tech">Matplotlib</span>
+          </div>
+          <div class="portfolio__buttons">
+            <a href="https://github.com/1001ayushi/Flight-Price-Prediction" class="button button--flex button--small portfolio__button">
+              GitHub <i class="uil uil-github-alt button__icon"></i>
+            </a>
+            <a href="https://github.com/1001ayushi/Flight-Price-Prediction/blob/main/Flight%20Price%20Prediction.ipynb" class="button button--flex button--small portfolio__button">
+              Research <i class="uil uil-flask button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 5: Payment Gateway Integration -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Multi-Tier Payment Gateway System" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Multi-Tier Payment Gateway System</h3>
+          <p class="portfolio__description">
+            Integrated Razorpay payment gateway supporting three subscription tiers with dynamic plan controls. Implemented role-based interview quotas and AI proctoring features for seamless subscription management.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">NestJS</span>
+            <span class="portfolio__tech">Razorpay API</span>
+            <span class="portfolio__tech">PostgreSQL</span>
+            <span class="portfolio__tech">JWT</span>
+            <span class="portfolio__tech">Redis</span>
+          </div>
+          <div class="portfolio__buttons">
+            <span class="button button--flex button--small portfolio__button portfolio__button--disabled">
+              <i class="uil uil-shield-check button__icon"></i> Commercial Project
+            </span>
+            <span class="portfolio__note">*Production payment system - source code protected</span>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Project 6: Sentiment Analysis -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sentiment Analysis Application" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Advanced Sentiment Analysis System</h3>
+          <p class="portfolio__description">
+            Developed a comprehensive sentiment analysis application using machine learning algorithms to analyze text emotions and opinions. Processes large datasets to determine positive, negative, and neutral sentiments with advanced NLP techniques and real-time analysis capabilities.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">Python</span>
+            <span class="portfolio__tech">NLTK</span>
+            <span class="portfolio__tech">TextBlob</span>
+            <span class="portfolio__tech">Machine Learning</span>
+            <span class="portfolio__tech">Data Visualization</span>
+          </div>
+          <div class="portfolio__buttons">
+            <a href="https://www.youtube.com/watch?v=BhLG1kUNtV4" target="_blank" class="button button--flex button--small portfolio__button">
+              Demo Video <i class="uil uil-play button__icon"></i>
+            </a>
+            <a href="https://github.com/1001ayushi" target="_blank" class="button button--flex button--small portfolio__button">
+              GitHub <i class="uil uil-github-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 7: Airbnb Clone -->
+      <div class="portfolio__content grid swiper-slide">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Airbnb Clone Full-Stack Application" class="portfolio__img">
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">Airbnb Clone Full-Stack Application</h3>
+          <p class="portfolio__description">
+            Developed an end-to-end property rental platform using Angular 17, Spring Boot 3, and PostgreSQL, serving 100+ mock users with role-based access. Reduced response latency by 40% through optimized REST API calls and pagination logic.
+          </p>
+          <div class="portfolio__technologies">
+            <span class="portfolio__tech">Angular 17</span>
+            <span class="portfolio__tech">Spring Boot 3</span>
+            <span class="portfolio__tech">PostgreSQL</span>
+            <span class="portfolio__tech">Auth0</span>
+            <span class="portfolio__tech">Docker</span>
+          </div>
+          <div class="portfolio__buttons">
+            <a href="#" class="button button--flex button--small portfolio__button">
+              Live Demo <i class="uil uil-arrow-right button__icon"></i>
+            </a>
+            <a href="https://github.com/1001ayushi/Airbnb" class="button button--flex button--small portfolio__button">
+              GitHub <i class="uil uil-github-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-button-next">
+      <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Achievements -->
+  <div class="portfolio__achievements">
+    <h3 class="portfolio__achievements-title">Notable Achievements</h3>
+    <div class="portfolio__achievements-container container grid">
+      <div class="portfolio__achievement">
+        <i class="uil uil-trophy achievement__icon"></i>
+        <h4 class="achievement__title">Airbus Aerothon 6.0</h4>
+        <p class="achievement__description">Top 10 Finalist - Aerospace Innovation Challenge</p>
+      </div>
+      <div class="portfolio__achievement">
+        <i class="uil uil-award achievement__icon"></i>
+        <h4 class="achievement__title">Codathon 2023 Winner</h4>
+        <p class="achievement__description">KIIT University - Competitive Programming</p>
+      </div>
+      <div class="portfolio__achievement">
+        <i class="uil uil-medal achievement__icon"></i>
+        <h4 class="achievement__title">CISCO Ideathon 2024</h4>
+        <p class="achievement__description">Finalist - Network Innovation Challenge</p>
+      </div>
+      <div class="portfolio__achievement">
+        <i class="uil uil-file-alt achievement__icon"></i>
+        <h4 class="achievement__title">Published Research</h4>
+        <p class="achievement__description">Scrivener Journal - Technical Publication</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       <!-- ========== Services ========== -->
       <section class="services section" id="services">
-        <h2 class="section__title">Services</h2>
-        <span class="section__subtitle">What I offer</span>
+        <h2 class="section__title">Professional Services</h2>
+        <span class="section__subtitle">Expert solutions for your business needs</span>
 
         <div class="services__container container grid">
-          <!-- ===== Services Content 1 ===== -->
-          
-
-          <!-- ===== Services Content 2 ===== -->
+          <!-- Service 1 -->
           <div class="services__content">
             <div>
-              <i class="uil uil-brackets-curly services__icon"></i>
+              <i class="uil uil-web-grid services__icon"></i>
               <h3 class="services__title">
-                Full Stack <br />
-                Developer
+                Enterprise Full Stack <br />
+                Development
               </h3>
             </div>
 
-            <span
-              class="button button--flex button--small button--link services__button"
-            >
-              view more
+            <span class="button button--flex button--small button--link services__button">
+              View Details
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Full Stack <br />
-                  Developer
-                </h4>
+                <h4 class="services__modal-title">Enterprise Full Stack Development</h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
-
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Interned at <a href="https://drive.google.com/drive/u/1/folders/1tB-K2G0co-GzaLMoq9rnpHa5Zojk21XD
-                      " target="_blank" rel="noopener noreferrer">TVS MOTOR COMPANY </a> as SDE. </p>
-
-
+                    <p><strong>End-to-end application development</strong> using modern tech stacks (Angular, React, .NET, NestJS)</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>I design UI and code backend as well.</p>
+                    <p><strong>Scalable backend architecture</strong> with microservices and cloud-native solutions</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Management of Database.</p>
+                    <p><strong>High-performance APIs</strong> with optimized database queries and caching strategies</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Fullstack development using Angular, Java and NodeJs.</p>
+                    <p><strong>Responsive UI/UX implementation</strong> with modern frontend frameworks</p>
                   </li>
-
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Hands-on knowledge of cloud technologies and Microsoft Certified Azure AI Engineer Associate.</p>
+                    <p><strong>Legacy system modernization</strong> and migration to current technologies</p>
                   </li>
-                  <!-- <li class="services__modal-service">
-                    <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li> -->
                 </ul>
               </div>
             </div>
           </div>
 
+          <!-- Service 2 -->
           <div class="services__content">
             <div>
-              <i class="uil uil-arrow services__icon"></i>
+              <i class="uil uil-server-network services__icon"></i>
               <h3 class="services__title">
-                Machine <br />
-                Learning
+                Cloud Architecture <br />
+                & DevOps
               </h3>
             </div>
 
-            <span
-              class="button button--flex button--small button--link services__button"
-            >
-              view more
+            <span class="button button--flex button--small button--link services__button">
+              View Details
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Machine <br />
-                  Learning
-                </h4>
+                <h4 class="services__modal-title">Cloud Architecture & DevOps</h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Ranked among the top 5 in <a href="https://skypulse.streamlit.app/" target="_blank" rel="noopener noreferrer">Airbus Aerothon 6.0</a>.</p>
-                  
+                    <p><strong>Microsoft Azure cloud solutions</strong> with certified expertise and best practices</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Proficient in Machine Learning Algorithms and Models</p>
+                    <p><strong>CI/CD pipeline implementation</strong> using Azure DevOps and GitHub Actions</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Skilled in Model Deployment and Real-World<a href="https://github.com/1001ayushi/Flight-Price-Prediction" target="_blank" rel="noopener noreferrer">Applications.</a>.</p>
+                    <p><strong>Containerization with Docker</strong> and orchestration for scalable deployments</p>
                   </li>
-                  
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servies__modal-icon"></i>
+                    <p><strong>Infrastructure automation</strong> and monitoring solutions</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servies__modal-icon"></i>
+                    <p><strong>Performance optimization</strong> and cost-effective cloud resource management</p>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
 
-
+          <!-- Service 3 -->
           <div class="services__content">
             <div>
-              <i class="uil uil-arrow services__icon"></i>
+              <i class="uil uil-brain services__icon"></i>
               <h3 class="services__title">
-                Android <br />
-                Developer
+                AI Integration <br />
+                & ML Solutions
               </h3>
             </div>
 
-            <span
-              class="button button--flex button--small button--link services__button"
-            >
-              view more
+            <span class="button button--flex button--small button--link services__button">
+              View Details
               <i class="uil uil-arrow-right button__icon"></i>
             </span>
 
             <div class="services__modal">
               <div class="services__modal-content">
-                <h4 class="services__modal-title">
-                  Android <br />
-                  Developer
-                </h4>
+                <h4 class="services__modal-title">AI Integration & ML Solutions</h4>
                 <i class="uil uil-times services__modal-close"></i>
 
                 <ul class="services__modal-services grid">
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>I develop the user interface.</p>
+                    <p><strong>AI-powered application features</strong> using OpenAI and Azure Cognitive Services</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>I do android application development.</p>
+                    <p><strong>Machine learning model development</strong> with 96%+ accuracy achievements</p>
                   </li>
                   <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>Develop application in both Java and Kotlin.</p>
+                    <p><strong>Data processing and ETL pipelines</strong> handling 300,000+ records efficiently</p>
                   </li>
-                  <!-- <li class="services__modal-service">
+                  <li class="services__modal-service">
                     <i class="uil uil-check-circle servies__modal-icon"></i>
-                    <p>I position your company brand.</p>
-                  </li> -->
+                    <p><strong>Predictive analytics solutions</strong> for business intelligence and forecasting</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle servies__modal-icon"></i>
+                    <p><strong>Real-time AI features</strong> integration into existing applications</p>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -895,58 +1015,125 @@ Experience
         </div>
       </section>
 
-      <!-- ========== Project in Mind ========== -->
+      <!-- ========== Call to Action ========== -->
       <section class="project section">
         <div class="project__bg">
           <div class="project__container container grid">
             <div class="project__data">
-              <h2 class="project__title">Looking for someone to bring your vision to life? </h2>
+              <h2 class="project__title">Ready to Build Something Extraordinary?</h2>
               <p class="project__description">
-                Contact me today and let’s get started!
+                Let's collaborate to transform your vision into powerful, scalable solutions. Whether you need enterprise applications, cloud architecture, or AI integration, I deliver results that drive business growth.
               </p>
-              <a href="#contact" class="button button--flex button--white">
-                Contact me
-                <i class="uil uil-message project__icon button__icon"></i>
-              </a>
+              <div class="project__buttons">
+                <a href="#contact" class="button button--flex button--white">
+                  Start Your Project
+                  <i class="uil uil-message project__icon button__icon"></i>
+                </a>
+                <a href="#projects" class="button button--flex">
+                  View My Work
+                  <i class="uil uil-arrow-right project__icon button__icon"></i>
+                </a>
+              </div>
             </div>
 
             <img
               src="assets/images/projectInMind.svg"
-              alt=""
+              alt="Project collaboration"
               class="project__img"
             />
           </div>
         </div>
       </section>
 
-      <!-- ========== Contact Me ========== -->
+      <!-- ========== Contact ========== -->
       <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in Touch</span>
+        <h2 class="section__title">Let's Connect</h2>
+        <span class="section__subtitle">Ready to discuss your next project</span>
       
         <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Call Me</h3>
+                <span class="contact__subtitle">+91-6200163864</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">ayushigupta.9901@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Bengaluru, Karnataka, India</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-linkedin contact__icon"></i>
+              <div>
+                <h3 class="contact__title">LinkedIn</h3>
+                <span class="contact__subtitle">Connect professionally</span>
+              </div>
+            </div>
+          </div>
+
           <form action="https://api.web3forms.com/submit" method="POST" class="contact__form grid">
             <input type="hidden" name="access_key" value="28944141-514c-4d78-a8ae-ca7ffe2139c1">
       
             <div class="contact__inputs grid">
               <div class="contact__content">
-                <label for="name" class="contact__label">Name: <span style="color: red;">*</label>
-                <input type="text" name="name" id="name" class="contact__input" required />
+                <label for="name" class="contact__label">Full Name <span style="color: red;">*</span></label>
+                <input type="text" name="name" id="name" class="contact__input" required placeholder="Your name" />
               </div>
       
               <div class="contact__content">
-                <label for="email" class="contact__label">Email: <span style="color: red;">*</label>
-                <input type="email" name="email" id="email" class="contact__input" required />
+                <label for="email" class="contact__label">Email Address <span style="color: red;">*</span></label>
+                <input type="email" name="email" id="email" class="contact__input" required placeholder="your.email@example.com" />
+              </div>
+            </div>
+
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="company" class="contact__label">Company/Organization</label>
+                <input type="text" name="company" id="company" class="contact__input" placeholder="Your company" />
+              </div>
+
+              <div class="contact__content">
+                <label for="budget" class="contact__label">Project Budget</label>
+                <select name="budget" id="budget" class="contact__input">
+                  <option value="">Select budget range</option>
+                  <option value="under-10k">Under $10,000</option>
+                  <option value="10k-50k">$10,000 - $50,000</option>
+                  <option value="50k-100k">$50,000 - $100,000</option>
+                  <option value="100k-plus">$100,000+</option>
+                </select>
               </div>
             </div>
       
             <div class="contact__content">
-              <label for="subject" class="contact__label">Subject: <span style="color: red;">*</label>
-              <input type="text" name="subject" id="subject" class="contact__input" required />
+              <label for="subject" class="contact__label">Project Type <span style="color: red;">*</span></label>
+              <select name="subject" id="subject" class="contact__input" required>
+                <option value="">Select project type</option>
+                <option value="full-stack">Full Stack Development</option>
+                <option value="backend">Backend Development</option>
+                <option value="frontend">Frontend Development</option>
+                <option value="cloud">Cloud Architecture</option>
+                <option value="ai-ml">AI/ML Integration</option>
+                <option value="consulting">Technical Consulting</option>
+                <option value="other">Other</option>
+              </select>
             </div>
       
             <div class="contact__content">
-              <label for="message" class="contact__label">Message:</label>
+              <label for="message" class="contact__label">Project Details <span style="color: red;">*</span></label>
               <textarea
                 name="message"
                 id="message"
@@ -954,19 +1141,19 @@ Experience
                 cols="0"
                 rows="7"
                 required
+                placeholder="Describe your project requirements, timeline, and any specific technologies you're interested in..."
               ></textarea>
             </div>
       
             <div>
               <button type="submit" class="button button--flex">
-                Send Message
+                Send Project Details
                 <i class="uil uil-message button__icon"></i>
               </button>
             </div>
           </form>
         </div>
       </section>
-      
     </main>
 
     <!--==================== Footer ====================-->
@@ -975,25 +1162,34 @@ Experience
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Ayushi Gupta</h1>
-            <span class="footer__subtitle">Undergrad Student</span>
+            <span class="footer__subtitle"> Full Stack Developer & Solutions Architect</span>
           </div>
 
           <ul class="footer__links">
             <li>
+              <a href="#about" class="footer__link">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="footer__link">Portfolio</a>
+            </li>
+            <li>
               <a href="#services" class="footer__link">Services</a>
             </li>
-
             <li>
-              <a href="#contact" class="footer__link">Contact Me</a>
+              <a href="#contact" class="footer__link">Contact</a>
             </li>
           </ul>
 
           <div class="footer__socials">
-            <a href="#" target="_blank" class="footer__social">
-              <i class="uil uil-facebook-f"></i>
+            <a href="https://www.linkedin.com/in/ayushi-gupta-72a38121b" target="_blank" class="footer__social">
+              <i class="uil uil-linkedin-alt"></i>
             </a>
 
-            <a href="#" target="_blank" class="footer__social">
+            <a href="https://github.com/1001ayushi" target="_blank" class="footer__social">
+              <i class="uil uil-github-alt"></i>
+            </a>
+
+            <a href="https://www.instagram.com/ayushii.in" target="_blank" class="footer__social">
               <i class="uil uil-instagram"></i>
             </a>
 
@@ -1003,8 +1199,8 @@ Experience
           </div>
         </div>
 
-        <p style="color: white" class="footer__copy">
-          &#169; Ayushi Gupta. All rights reserved
+        <p class="footer__copy">
+          &#169; 2025 Ayushi Gupta. All rights reserved. Built with passion for excellence.
         </p>
       </div>
     </footer>
